@@ -20,21 +20,17 @@ function tabs_list() {
 chrome.windows.getCurrent(function (g) {
   cWin = g.id, chrome.windows.onFocusChanged.addListener(function (h) {
     h !== cWin || gData.single || (gData.ws ?
-      (document.getElementById(h).className = 'ws_ wa_', document.getElementById('WL_' +
-        h).style.borderLeft = '3px solid #ff0000', chrome.windows.getAll(function (k) {
+      (document.getElementById(h).className = 'ws_ wa_',
+      chrome.windows.getAll(function (k) {
         for (let o = k.length;
           o--;) {
           k[o].id !== h &&
-          (document.getElementById(k[o].id).className = 'ws_', document.getElementById('WL_' +
-            k[o].id).style.borderLeft = '3px solid #fff')
+          (document.getElementById(k[o].id).className = 'ws_')
         }
       })) :
-      (document.getElementById('WL_' +
-        h).style.borderLeft = '3px solid #ff0000', chrome.windows.getAll(function (k) {
+      (___x = 1, chrome.windows.getAll(function (k) {
         for (let o = k.length;
           o--;) {
-          k[o].id !== h &&
-          (document.getElementById('WL_' + k[o].id).style.borderLeft = '3px solid #fff')
         }
       })))
   })
@@ -143,7 +139,7 @@ chrome.windows.getCurrent(function (g) {
   }
   if ('complete' === h.status && tbd(k), void 0 !== h.pinned) {
     let o = document.getElementById(g);
-    o.pinned = h.pinned, o.style.borderLeft = h.pinned ? '3px solid blue' : ''
+    o.pinned = h.pinned, o.style.borderLeft = h.pinned ? '3px solid #f1f2f3' : ''
   }
 });
 
@@ -471,7 +467,7 @@ function _ctxC(g) {
         let o = document.getElementById(thisId);
         o.pinned ?
           (chrome.tabs.update(~~thisId, {pinned: !1}), o.style.borderLeft = '') :
-          (chrome.tabs.update(~~thisId, {pinned: !0}), o.style.borderLeft = '3px solid blue')
+          (chrome.tabs.update(~~thisId, {pinned: !0}), o.style.borderLeft = '3px solid #f1f2f3')
       } else if ('nwtt' === h) {
         chrome.windows.create({
           tabId: ~~thisId,
@@ -763,8 +759,8 @@ function tl() {
       }
       let o = document.createElement('div');
       o.style.display = 'block', o.id = 'WL_' +
-        h[k].id, o.style.paddingTop = '3px', o.style.paddingBottom = '5px', o.style.overflow = 'hidden', o.style.borderLeft = h[k].id ===
-      cWin ? '3px solid #ff0000' : '3px solid #fff', g.appendChild(o);
+        h[k].id, o.style.paddingTop = '3px', o.style.paddingBottom = '5px', o.style.overflow = 'hidden',
+        g.appendChild(o);
       let u = h[k].tabs;
       for (let v = 0, x = u.length; v < x; v++) {
         _tn(u[v], o, 1);
@@ -811,7 +807,7 @@ function _tn(g, h, k) {
     chrome.i18n.getMessage('load');
   let x = document.createElement('div');
   return x.className = 'delBtn', x.title = chrome.i18n.getMessage('rc10'), o.appendChild(u), o.appendChild(
-    v), o.appendChild(x), o.pinned && (o.style.borderLeft = '3px solid blue'), k ?
+    v), o.appendChild(x), o.pinned && (o.style.borderLeft = '3px solid #f1f2f3'), k ?
     void h.appendChild(o) :
     o
 }
