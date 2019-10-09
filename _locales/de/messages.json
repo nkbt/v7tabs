@@ -1,0 +1,143 @@
+{
+   "changelog": {
+      "message": "Änderungsprotokoll"
+   },
+   "credits": {
+      "message": "Danksagungen"
+   },
+   "donate": {
+      "message": "Spenden"
+   },
+   "header1": {
+      "message": "Neuer Tab\nRechtsklick: Neues Fenster"
+   },
+   "header2": {
+      "message": "Tab schliessen\nRC: Andere Tabs schliessen"
+   },
+   "header3": {
+      "message": "Aktiven Tab neu laden\nRC: Alle Tabs im aktuellen Fenster neu laden"
+   },
+   "header4": {
+      "message": "Zuletzt geöffneten Tab oder Fenster wiederherstellen\nRC: Liste zuletzt geschlossener Tabs"
+   },
+   "header5": {
+      "message": "Save all tabs as bookmarks folder\nRC: Save current window only"
+   },
+   "header6": {
+      "message": "Schließen"
+   },
+   "header7": {
+      "message": "Single or multiple windows"
+   },
+   "how_to": {
+      "message": "Anleitung"
+   },
+   "load": {
+      "message": "Wird geladen..."
+   },
+   "my_addons": {
+      "message": "Meine Apps"
+   },
+   "npp": {
+      "message": "all coding is done in "
+   },
+   "opis": {
+      "message": "Tabs und Fenster in der Seitenleiste"
+   },
+   "pnink": {
+      "message": "all the graphics is made with "
+   },
+   "rc1": {
+      "message": "Diesen Tab neu laden"
+   },
+   "rc10": {
+      "message": "Schließen"
+   },
+   "rc11": {
+      "message": "Diesen Tab lösen"
+   },
+   "rc12": {
+      "message": "Copy all tabs"
+   },
+   "rc2": {
+      "message": "Diesen Tab anheften"
+   },
+   "rc3": {
+      "message": "in neues Fenster"
+   },
+   "rc4": {
+      "message": "Diesen Tab"
+   },
+   "rc5": {
+      "message": "Ursprungstab"
+   },
+   "rc6": {
+      "message": "Diesen + abgeleitete"
+   },
+   "rc7": {
+      "message": "Andere Tabs"
+   },
+   "rc8": {
+      "message": "Alle oberen"
+   },
+   "rc9": {
+      "message": "Alle unteren"
+   },
+   "sPrompt": {
+      "message": "Save tabs as bookmarks folder"
+   },
+   "sel1": {
+      "message": "Move selected to new window"
+   },
+   "sel2": {
+      "message": "Close selected"
+   },
+   "sel3": {
+      "message": "Copy selected tabs"
+   },
+   "settings": {
+      "message": "Einstellungen"
+   },
+   "st1": {
+      "message": "Tab* mit Doppelklick schließen"
+   },
+   "st2": {
+      "message": "Tab* mit mittlerer Maustaste schließen"
+   },
+   "st3": {
+      "message": "Fensterauswahl anzeigen"
+   },
+   "st4": {
+      "message": "Tab URL in Tooltipp anzeigen"
+   },
+   "st5": {
+      "message": "Mit Mausrad über der Liste zwischen Tabs wechslen"
+   },
+   "st6": {
+      "message": "Sitzung in \u003Cb>V7 Sessions\u003C/b> speichern, falls installiert"
+   },
+   "st7": {
+      "message": "*Tab in der Tab Liste der Erweiterung schließen, anstatt in der Browser Tableiste"
+   },
+   "st8": {
+      "message": "Enable dark theme"
+   },
+   "translators": {
+      "message": "Übersetzer:"
+   },
+   "ts": {
+      "message": "Tabs saved"
+   },
+   "ts1": {
+      "message": "in 'All Bookmarks'"
+   },
+   "wc": {
+      "message": "Close window"
+   },
+   "wr": {
+      "message": "Reload all tabs"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

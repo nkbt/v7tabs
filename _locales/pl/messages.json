@@ -1,0 +1,143 @@
+{
+   "changelog": {
+      "message": "Historia wersji"
+   },
+   "credits": {
+      "message": "Podziękowania"
+   },
+   "donate": {
+      "message": "Donate"
+   },
+   "header1": {
+      "message": "nowa karta\nprawy przycisk myszy: nowe okno"
+   },
+   "header2": {
+      "message": "zamknij kartę\nprawy przycisk myszy: zamknij inne karty"
+   },
+   "header3": {
+      "message": "odśwież aktywną kartę\nprawy przycisk myszy: odśwież wszystkie karty w oknie"
+   },
+   "header4": {
+      "message": "Przywróć ostatnio zamkniętą kartę lub okno\nprawy przycisk myszy: lista ostatnio zamkniętych kart"
+   },
+   "header5": {
+      "message": "Save all tabs as bookmarks folder\nRC: Save current window only"
+   },
+   "header6": {
+      "message": "zamknij"
+   },
+   "header7": {
+      "message": "Single or multiple windows"
+   },
+   "how_to": {
+      "message": "Instrukcja"
+   },
+   "load": {
+      "message": "ładuje się..."
+   },
+   "my_addons": {
+      "message": "Moje rozszerzenia"
+   },
+   "npp": {
+      "message": "all coding is done in "
+   },
+   "opis": {
+      "message": "karty i okna na pasku bocznym"
+   },
+   "pnink": {
+      "message": "all the graphics is made with "
+   },
+   "rc1": {
+      "message": "odśwież tą kartę"
+   },
+   "rc10": {
+      "message": "zamknij"
+   },
+   "rc11": {
+      "message": "wypnij tą kartę"
+   },
+   "rc12": {
+      "message": "Copy all tabs"
+   },
+   "rc2": {
+      "message": "przypnij tą kartę"
+   },
+   "rc3": {
+      "message": "do nowego okna"
+   },
+   "rc4": {
+      "message": "tą kartę"
+   },
+   "rc5": {
+      "message": "pochodzącą kartę"
+   },
+   "rc6": {
+      "message": "tą kartę + stworzone"
+   },
+   "rc7": {
+      "message": "inne karty"
+   },
+   "rc8": {
+      "message": "wszystkie górne"
+   },
+   "rc9": {
+      "message": "wszystkie dolne"
+   },
+   "sPrompt": {
+      "message": "Save tabs as bookmarks folder"
+   },
+   "sel1": {
+      "message": "Move selected to new window"
+   },
+   "sel2": {
+      "message": "Close selected"
+   },
+   "sel3": {
+      "message": "Copy selected tabs"
+   },
+   "settings": {
+      "message": "Ustawienia"
+   },
+   "st1": {
+      "message": "kliknij dwukrotnie aby zamknąć kartę*"
+   },
+   "st2": {
+      "message": "kliknij kółkiem myszy aby zamknąć kartę*"
+   },
+   "st3": {
+      "message": "pokaż selektor okien"
+   },
+   "st4": {
+      "message": "pokaż URL karty w podpowiedzi"
+   },
+   "st5": {
+      "message": "przełącz karty kółkiem myszy nad listą"
+   },
+   "st6": {
+      "message": "zapisz sesję w \u003Cb>V7 Sessions\u003C/b>, jeśli jest obecnie zainstalowana"
+   },
+   "st7": {
+      "message": "*zamknij kartę w liście rozszerzenia zamiast na pasku kart przeglądarki"
+   },
+   "st8": {
+      "message": "Enable dark theme"
+   },
+   "translators": {
+      "message": "Tłumaczenia:"
+   },
+   "ts": {
+      "message": "Tabs saved"
+   },
+   "ts1": {
+      "message": "in 'All Bookmarks'"
+   },
+   "wc": {
+      "message": "Close window"
+   },
+   "wr": {
+      "message": "Reload all tabs"
+   },
+   "zoom": {
+      "message": "Powiększenie"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "commands": {
+      "_execute_sidebar_action": {
+         "description": "Open V7 Tabs",
+         "suggested_key": {
+            "default": "Ctrl+Shift+D"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_opis__",
+   "developer": {
+      "name": "vux777"
+   },
+   "icons": {
+      "16": "img/tb_16.png",
+      "19": "img/tb_19.png",
+      "32": "img/tb_32.png",
+      "48": "img/tb_48.png",
+      "64": "img/tb_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuPf8p5jzQGe/anucAMCUtqpIEyEYNccbOR5w/Ctz51zecF2hN0dbcLvxGXCazkgphH6Ve0KTnYoXeauLigZ0czhdd4Z+Z5+jpdYO1QexUKjRzxKT+T/sC+ThiGi1i1GdDq6Osbmw1+sUai7rMv7HhphWKAiLKMiN3qt2B79XGFdsw6L486NLMln5jgSel6Pz9e8az+Q3k2WFGa3O/XKvyZ0LhFkve2KVGgahOJDqT7Pjuco4YNq7H0onWob7ux2HuYCtNA94VjyxOUHBlRUWl9yS2z7sKqb3N2FJZ+mBXtuWTbczGXwWrjPehJalHadKf4A513U4GhJFw46DpSTdvwIDAQAB",
+   "manifest_version": 2,
+   "name": "V7 Tabs (dark)",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "storage", "chrome://favicon/", "sessions", "bookmarks", "webNavigation", "notifications", "management" ],
+   "sidebar_action": {
+      "default_icon": "img/tb_16.png",
+      "default_panel": "tabs.html",
+      "default_title": "V7 Tabs"
+   },
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "2.1.1"
+}

@@ -1,0 +1,88 @@
+#tMenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  min-width: 212px;
+  border: none;
+  height: 35px;
+  /* -webkit-animation: top 0.2s ease-out; */
+  background-color: #2C343C;
+  visibility: hidden;
+}
+
+.tB_ {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.s0 {
+  position: absolute;
+  top: 0;
+  left: 125px;
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hsb {
+  font-size: 15px;
+  line-height: 22px;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 170px;
+  height: 22px;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  border: none;
+  outline: 0;
+  background-color: #394149;
+}
+
+#ca_ {
+  right: 0;
+  opacity: 0.1;
+  background-image: url('chrome-extension://bgjcegonlhkkclkkglpgjmgnigefhkak/img/cl.svg');
+  -webkit-filter: grayscale(100%);
+}
+
+#bMenu {
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  height: 35px;
+  border: none;
+  /*border-top: 1px solid #a0a0a0;*/
+  /*-webkit-animation: bottom 0.3git s ease-out;*/
+  background-color: #2C343C;
+  visibility: hidden;
+}
+
+.bB_ {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.xL::-webkit-scrollbar-thumb, .sideBarPanel::-webkit-scrollbar-thumb {
+  background-color: #999999;
+}

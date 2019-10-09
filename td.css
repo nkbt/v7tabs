@@ -1,0 +1,88 @@
+#tMenu {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 35px;
+	background-color: #5A5B5C;
+	border-bottom: 1px solid #252626;
+	box-sizing: border-box;
+	min-width: 212px;
+	-webkit-animation: top 0.2s ease-out;
+}
+
+.tB_ {
+	position: absolute;
+	top: 0;
+	width: 30px;
+	height: 35px;
+	cursor: pointer;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	filter: brightness(9);
+}
+
+.s0 {
+	position: absolute;
+	top: 0;
+	left: 125px;
+	width: 30px;
+	height: 35px;
+	cursor: pointer;
+	background-position: center center;
+	background-repeat:no-repeat;
+	opacity: 0.8;
+	filter: brightness(9);	
+}
+
+.hsb {
+	position: absolute;	
+	top: 7px;
+	left: 0;
+	height: 22px;
+	width: 100%;
+	max-width: 170px;
+	line-height: 22px;
+	font-size: 15px;
+	background-color: #5A5B5C;
+	outline: 0;
+    text-overflow: ellipsis;
+	overflow: hidden;
+	border: 1px solid #DBDBDB;
+	color : #fff;
+}
+
+#ca_ {
+	right: 0;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/img/cl.svg');
+	opacity: 0.8;
+	filter: brightness(9);
+}
+
+#bMenu {
+	position: absolute;
+	display: none;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 35px;
+	background-color: #5A5B5C;
+	border-top: 1px solid #252626;
+	z-index: 9;
+	-webkit-animation: bottom 0.3s ease-out;
+}
+
+.bB_ {
+	position: absolute;	
+	top: 0;
+	width: 30px;
+	height: 35px;
+	opacity: 0.6;
+	cursor: pointer;
+	filter: brightness(9);
+}
+
+.xL::-webkit-scrollbar-thumb, .sideBarPanel::-webkit-scrollbar-thumb {
+	background-color: #5A5B5C;
+}

@@ -1,0 +1,143 @@
+{
+   "changelog": {
+      "message": "История"
+   },
+   "credits": {
+      "message": "Респекты"
+   },
+   "donate": {
+      "message": "Пожертв"
+   },
+   "header1": {
+      "message": "Новая вкладка\nПКМ: новое окно"
+   },
+   "header2": {
+      "message": "Закрыть вкладку\nПКМ: закрыть все вкладки"
+   },
+   "header3": {
+      "message": "Обновить текущую вкладку\nПКМ: обновить все вкладки"
+   },
+   "header4": {
+      "message": "Открыть последнюю закрытую вкладку\nПКМ: список недавно закрытых вкладок"
+   },
+   "header5": {
+      "message": "Save all tabs as bookmarks folder\nRC: Save current window only"
+   },
+   "header6": {
+      "message": "Скрыть окно расширения"
+   },
+   "header7": {
+      "message": "Одно или несколько окон"
+   },
+   "how_to": {
+      "message": "Описание"
+   },
+   "load": {
+      "message": "Загружается..."
+   },
+   "my_addons": {
+      "message": "Мои работы"
+   },
+   "npp": {
+      "message": "Для кодинга использовался "
+   },
+   "opis": {
+      "message": "боковая панель окон и вкладок"
+   },
+   "pnink": {
+      "message": "Вся графика выполнена с помощью "
+   },
+   "rc1": {
+      "message": "Обновить эту вкладку"
+   },
+   "rc10": {
+      "message": "Закрыть:"
+   },
+   "rc11": {
+      "message": "Открепить эту вкладку"
+   },
+   "rc12": {
+      "message": "Copy all tabs"
+   },
+   "rc2": {
+      "message": "Прикрепить эту вкладку"
+   },
+   "rc3": {
+      "message": "В новое окно:"
+   },
+   "rc4": {
+      "message": "эту вкладку"
+   },
+   "rc5": {
+      "message": "с этого домена"
+   },
+   "rc6": {
+      "message": "эту + дочерние"
+   },
+   "rc7": {
+      "message": "другие вкладки"
+   },
+   "rc8": {
+      "message": "все выше / левее"
+   },
+   "rc9": {
+      "message": "все ниже / правее"
+   },
+   "sPrompt": {
+      "message": "Save tabs as bookmarks folder"
+   },
+   "sel1": {
+      "message": "Move selected to new window"
+   },
+   "sel2": {
+      "message": "Close selected"
+   },
+   "sel3": {
+      "message": "Copy selected tabs"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "st1": {
+      "message": "закрывать вкладку* двойным левым кликом мыши"
+   },
+   "st2": {
+      "message": "закрывать вкладку* средним кликом мыши"
+   },
+   "st3": {
+      "message": "показать окно выбора"
+   },
+   "st4": {
+      "message": "показать URL вкладки в подсказке"
+   },
+   "st5": {
+      "message": "переключение вкладок колесиком мыши над списком"
+   },
+   "st6": {
+      "message": "сохранять сессию в расширении \u003Cb>V7 Sessions\u003C/b>, если оно установлено"
+   },
+   "st7": {
+      "message": "* Закрытие вкладки в списке вкладок расширения, а не на панели браузера"
+   },
+   "st8": {
+      "message": "Enable dark theme"
+   },
+   "translators": {
+      "message": "Перевод:"
+   },
+   "ts": {
+      "message": "Tabs saved"
+   },
+   "ts1": {
+      "message": "in 'All Bookmarks'"
+   },
+   "wc": {
+      "message": "Close window"
+   },
+   "wr": {
+      "message": "Reload all tabs"
+   },
+   "zoom": {
+      "message": "Масштаб"
+   }
+}

@@ -1,0 +1,143 @@
+{
+   "changelog": {
+      "message": "Changelog"
+   },
+   "credits": {
+      "message": "Credits"
+   },
+   "donate": {
+      "message": "Donate"
+   },
+   "header1": {
+      "message": "New tab\nRC: New window"
+   },
+   "header2": {
+      "message": "Close tab\nRC: Close other tabs"
+   },
+   "header3": {
+      "message": "Reload active tab\nRC: Reload all in window"
+   },
+   "header4": {
+      "message": "Restore last closed tab or window\nRC: Recently closed list"
+   },
+   "header5": {
+      "message": "Save all tabs as bookmarks folder\nRC: Save current window only"
+   },
+   "header6": {
+      "message": "Close app"
+   },
+   "header7": {
+      "message": "Single or multiple windows"
+   },
+   "how_to": {
+      "message": "How to..."
+   },
+   "load": {
+      "message": "Loading..."
+   },
+   "my_addons": {
+      "message": "My addons"
+   },
+   "npp": {
+      "message": "all coding is done in "
+   },
+   "opis": {
+      "message": "Sidebar windows and tabs"
+   },
+   "pnink": {
+      "message": "all the graphics is made with "
+   },
+   "rc1": {
+      "message": "Reload this tab"
+   },
+   "rc10": {
+      "message": "Close"
+   },
+   "rc11": {
+      "message": "Unpin this tab"
+   },
+   "rc12": {
+      "message": "Copy all tabs"
+   },
+   "rc2": {
+      "message": "Pin this tab"
+   },
+   "rc3": {
+      "message": "To new window"
+   },
+   "rc4": {
+      "message": "This tab"
+   },
+   "rc5": {
+      "message": "This origin"
+   },
+   "rc6": {
+      "message": "This + children"
+   },
+   "rc7": {
+      "message": "Other tabs"
+   },
+   "rc8": {
+      "message": "All up /left"
+   },
+   "rc9": {
+      "message": "All down /right"
+   },
+   "sPrompt": {
+      "message": "Save tabs as bookmarks folder"
+   },
+   "sel1": {
+      "message": "Move selected to new window"
+   },
+   "sel2": {
+      "message": "Close selected"
+   },
+   "sel3": {
+      "message": "Copy selected tabs"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "st1": {
+      "message": "Close tab* with double click"
+   },
+   "st2": {
+      "message": "Close tab* with middle click"
+   },
+   "st3": {
+      "message": "Show window selector"
+   },
+   "st4": {
+      "message": "Show tab url in tooltip"
+   },
+   "st5": {
+      "message": "Switch tabs with mouse wheel over list"
+   },
+   "st6": {
+      "message": "Save session in \u003Cb>V7 Sessions\u003C/b>, if existing"
+   },
+   "st7": {
+      "message": "*Closing tab in extension tabs list, not on the browser tabs bar"
+   },
+   "st8": {
+      "message": "Enable dark theme"
+   },
+   "translators": {
+      "message": "Translators:"
+   },
+   "ts": {
+      "message": "Tabs saved"
+   },
+   "ts1": {
+      "message": "in 'All Bookmarks'"
+   },
+   "wc": {
+      "message": "Close window"
+   },
+   "wr": {
+      "message": "Reload all tabs"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

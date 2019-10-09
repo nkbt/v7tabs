@@ -1,0 +1,271 @@
+<html>
+	<head>
+		<title>V7 Tabs Settings</title>
+		<link rel="stylesheet" type="text/css" href="options.css">
+		<meta http-equiv="content-type" content="text/html; charset=utf8">		
+	</head>
+	<body>
+		<div id="header">
+			<div id="podloga"></div>
+			<div id="podloga2">
+				<div id="pod_gl">
+					<div id="box_t">
+						<div id="logo"></div>
+						<div id="title">V7 Tabs</div>
+						<div id="ver">version 2.1</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="menu">
+			<div id="m1" class="mBtn" data-i18n="settings"></div>
+			<div id="m2" class="mBtn" data-i18n="changelog"></div>
+			<div id="m3" class="mBtn" data-i18n="how_to"></div>
+			<div id="m4" class="mBtn" data-i18n="credits"></div>
+			<div id="m6" class="mBtn">
+				<div id="m6_img"></div>	
+				<div id="m6_dn" data-i18n="donate"></div>	
+			</div>
+			<div id="m5" class="mBtn" data-i18n="my_addons"></div>			
+		</div>
+		<div id="LM">
+			<div id="o_btn" class="sBtn" title="addon page"></div>
+			<div id="f_btn" class="sBtn" title="facebook"></div>
+			<div id="t_btn" class="sBtn" title="twitter"></div>
+		</div>
+		<div id="content">
+			<div id="pan">
+				<div id="settings" class="panClass">
+					<p></p>	
+					<div id="sBase">
+						<div id="dbc" class="boxA boxE" data-i18n="st1"></div>
+						<div id="mmc" class="boxA boxE" data-i18n="st2"></div>
+						<div id="ws" class="boxA boxE" data-i18n="st3"></div>
+						<div id="toti" class="boxA boxE" data-i18n="st4"></div>
+						<div id="wheel" class="boxA boxE" data-i18n="st5"></div>
+						<div id="sess" class="boxA boxE" data-i18n="st6"></div>
+						<div id="theme" class="boxA boxE" data-i18n="st8"></div>
+					</div>			
+								
+					</br>
+					<li  data-i18n="st7"></li>
+					
+					<div class="sep2"></div>				
+					<div id="zoomCnt" >
+						<div data-i18n="zoom" class="zCl">zoom</div>
+						<div id="zoomNmb" class="zCl" style="float:right;">100%</div>
+					</div>	
+					<input id="zoomInp" type="range" min="70" max="160" step="5" value="100"/>
+
+				</div>
+				<div id="log" class="panClass">
+					<h3>v2.1// 21-08-2017</h3>	
+					<li>removed some code, chromium changed stuff internally and ext. code became obsolete (mutation observers removed)... it's lighter now</li>
+					<li>zoom (at the bottom for web pages) is completely rewritten</li>
+					<li>some other small changes</li>
+					<div class="sep2"></div>
+					<h3>v2.0// 06-08-2017</h3>	
+					<li>support for dark theme</li>
+					<li>implemented search</li>
+					<li>you can now zoom panel with CTRL + mouse wheel over panel (without CTRL is tab switching as it was before, if enabled in settings)</li>
+					<li>context menu now have new item, <b>Copy all tabs</b> or with multi selected <b>Copy selected tabs</b>. Paste them (list in a simple HTML file) into any browser address bar. Useful for moving many tabs from one browser to another</li>
+					<li>added prompt for save tabs as bookmarks folder function</li>
+					<li>changes in context menu styles (bigger, no more dimmed background...)</li>
+					<li>zoom (on settings page) is changed to 70-160 in steps of 5 </li>
+					<li>many other small changes in code and styles</li>
+					<div class="sep2"></div>
+				
+					<h3>v1.8// 04-13-2017</h3>	
+					<li>new settings page</li>
+					<li>added Russian language</li>
+					<li>fixed windows focus when tab is clicked in background window</li>
+					<li>fixed error when page title is not available</li>
+					<li>other small changes</li>
+					<div class="sep2"></div>
+				
+				
+					<h3>v1.7.5 // 04-11-2015</h3>	
+					<li>fixed bug on save sessions (if user opt in V7 Sessions, and actual extension doesn't exist)</li>				
+					<li>fixed reloading animation</li>				
+					<div class="sep2"></div>					
+					
+					<h3>v1.7 // 02-11-2015</h3>	
+					<li>finally found time to fix bugs and change some things in this extension</li>				
+					<li>added single window feature, button on top menu will toggle between single or multiple windows (no window selector on single list)</li>				
+					<li>changed text color in window selector of active window to red (bold font created annoying jumping)</li>				
+					
+					<li>changed back zoom scope (blue-red button on bottom) behavior as it was at the beginning. Now, if you switch scope it will stay that way. In last couple of updates, it was reading actuall tabs scope (and changed constantly on every tab switch). Even tho this is better, less prone to errors, it was confusing for users. So i switched back.</li>	
+					<li>fixed drop on panel empty space, it shouldn't open new window as <b>drag-out</b> feature</li>				
+					<li>added double click on empty space (under tabs list) for creating new tab</li>				
+					<div class="sep2"></div>					
+					
+					<h3>v1.4.5 // 27-08-2015</h3>	
+					<li>quick fix for save session button in combination with V7 Sessions (old ID key is left from testing)</li>				
+					<div class="sep2"></div>			
+					
+					<h3>v1.4 // 27-08-2015</h3>	
+					<li>added zoom (for panel)</li>				
+					<li>added V7 Session support (in options)</li>				
+					<li>added number of tabs on window selector</li>				
+					<li>added support for internationalization and credits page</li>				
+					<li>added pin/unpin on right click menu</li>		
+					<li>added close app button (upper right corner)</li>
+					<li>added some recognition for active window in the list</li>				
+					<li>added shortcut for open/close V7 Tabs Ctrl+Shift+D</li>			
+					<li>change shortcuts on internal Opera page</li>
+					</br>
+					<div id="kbs">shortcuts</div>				
+					<div class="sep2"></div>				
+
+					<h3>v1.3 // 17-06-2015</h3>	
+					<li>added right click to session button, it will save only tabs from current window</li>				
+					<li>added CTRL+click to select multiple tabs (for dragging between tabs/windows, drop on window selector or out of sidebar to move them into new window)</li>				
+					<div class="sep2"></div>						
+					
+					<h3>v1.2 // 11-06-2015</h3>	
+					<li>new base color to match Opera UI</li>				
+					<li>new icons</li>				
+					<li>fix in favicons</li>				
+					<li>added drag-out (pull out) tab out of sidebar to open new window with it, no more dependency on other extension</li>		
+					<li>small fixes</li>				
+					<div class="sep2"></div>					
+					
+					<h3>v1.1 // 08-05-2015</h3>	
+					<li>active tab is bluish now (instead od that screaming orange)</li>				
+					<li>added merging windows with window selectors drag and drop </li>				
+					<li>title for recently closed tabs list now acts as close button</li>				
+					<li>added context menu with reload, window grouping, tabs closing...</li>				
+					<li>win selector is now just text, on hover shows full capacity (close, reload, bg)</li>				
+					<li>fixed internal pages favicons</li>
+					<li>fixed many little bugs</li>				
+					<li>new settings page</li>				
+					<div class="sep2"></div>				
+					<h3>v0.99 // 17-04-2015</h3>	
+					<li>added option for switching tabs with mouse wheel over tabs list</li>
+					<li>fixed zoom indicator for in-tab navigation and when switching between windows</li>	
+					<li>fixed middle click on tab node</li>		
+					<li>fixed event page logic (removed code from bg)</li>		
+					<div class="sep2"></div>	
+					<h3>v0.98.2 // 15-04-2015</h3>	
+					<li>quick fix for innerFrame load</li>
+					<div class="sep2"></div>
+					<h3>v0.98 // 15-04-2015</h3>	
+					<li>settings button on bottom menu</li>
+					<li>added mouse wheel over list for switching tabs (previously was only on top and bottom menu)</li>	
+					<li>added close tab actions with middle click and double click (double click will probably get some other functionality in future versions)</li>
+					<li>added option to hide window selector</li>
+					<li>smaller font</li>	
+					<li>removed tons of junk code</li>
+					<li>//// pls report bugs or some unlogical behavior under <a href="https://addons.opera.com/en/extensions/details/v7-tabs/?display=en&reports#feedback-container" target="_blank">issues</a>, I can't reply on comment section \\\\</li>		
+					<div class="sep2"></div>	
+					<h3>0.95 // 13-04-2015</h3>
+					<li>first upload</li>				
+				</div>		
+				<div id="how" class="panClass">
+					</br>	</br>
+					<img id="mainImg" src="img/tb.png" style="margin-left:30px"/>	
+					</br>	</br>
+					<li>right click actions are in blue color, and pretty much self explanatory</li>
+					<li>click <b>restore last closed</b> multiple times to restore tabs/windows in reverse order they were closed</li>	
+					<li>reorder tabs by dragging them (green indicator)</li>
+					<li><b>drag out</b> tab (single or multiple) out of sidebar and drop it anywhere to send that tab(s) into new window</li>			
+					<li>if you drop tab on window selector, it will go on index 0 (first tab in that window)</li>
+					<li><b>click on window selector</b> to open/close list of tabs in it, or click on <b>x</b> to close window</li>		
+					<li><b>right click on window selector</b> will bring that window on top (focus)</li>		
+					<li>you can <b>merge windows</b> by dragging one window selector onto another</li>			
+					<li><b>CTRL+click</b> to select multiple tabs</li>			
+					<li>click on <b>window(s) button</b> to switch between single or multiple windows</li>			
+					<li><b>close app</b> will close V7 Tabs, not the whole sidebar</li>			
+					<li>double click empty space under tabs list to create new tab</li>				
+					</br>	
+					
+					<li>you can reload all tabs in any window by clicking on window reload icon (or right-click reload button on top menu to reload current window tabs)</li>				
+					</br>			
+					<img src="img/winRe.png" style="margin-left: 220px"/>				
+					<div class="sep2"></div>
+					<li>if you click <b>Save all tabs</b>, tabs will be saved in <b>All Bookmarks</b> as first folder</li>
+					<div class="sep2"></div>
+					<li>switch tabs by scrolling mouse wheel over tabs list (enable in settings), but only if there is no scroll bar. If there is a scroll bar, panel scrolling will take priority.</li>		
+					<li>you can always switch tabs by scrolling mouse wheel over top and bottom menues </li>
+					<li>If you hold <b>CTRL key while scrolling mouse wheel over panel</b>, panel zoom will change (no need to open settings page)</li>					
+					<div class="sep2"></div>
+					<li>list of recently closed tabs is limited to 25 last closed (API limitation). Benefit of using API instead of custom list is that in restored tab, you have ability to travel back in history and there is 
+					no need to constantly listen when tab is closed (background is event page)</li>	
+					<div class="sep2"></div>
+					<li>zoom commands are on the bottom and very simple</li>
+					<li>red/blue switch is for changing zoom scope</li>
+					<li>state of the switch is saved, and all zooming with this extension will act according to that state</li>	
+					<img src="img/cr.png" style="margin-left: 220px"/>		
+					</br>		
+					<li>red state is <b  style="color: red;">per-origin</b></li>		
+					<li>if the switch is red, zoom behaves in classic way, all tabs from same origin/domain are affected and zoom is saved for next visit</li>	
+					</br>	
+					<img src="img/pl.png" style="margin-left: 220px"/>		
+					</br>	
+					<li>blue state is <b style="color: blue;">per-tab</b></li>		
+					<li>if the switch is blue, changing zoom (with extension) won't affect other tabs from same origin and zoom will NOT be saved for next visit, any navigation in that tab will cancel zoom made by per-tab scope... so it's only <b>this-tab-this-time</b> ...4t&#8482; :P </li>	
+					</br>		
+					<li>to see/edit the list of saved zoom levels for domains, click the button below</li>
+					</br>
+					<div id="zoomLvl">Zoom lvl's</div>
+					</br>
+					<div class="sep2"></div>
+					<li>right click tab for context menu</li>			
+					</br>			
+					<img src="img/rc.png" style="margin-left: 157px"/>				
+					</br>
+					
+					<li>sometimes you need to reload tab that is not active, that's the first command for</li>			
+					<li>to new window:</li>			
+					<p style="padding-left:30px"><b>this tab</b> will move clicked tab into new window (same as <b>drag-out</b>)</p>
+					<p style="padding-left:30px"><b>this origin</b> will move all tabs with same origin/domain as clicked tab into new window</p>			
+					<p style="padding-left:30px"><b>this + children</b> will move clicked tab and all tabs opened from clicked tab into new window (for instance, all tabs opened from search results page)</p>	
+					<li><b>Copy all tabs</b> will copy tabs to clipboar. You can paste it into address bar of any browser and load simple HTML page with the list of tabs that you copied. Useful if you need to move session with many tabs from one browser to another </li>	
+					
+					<li>other commands are self explanatory</li>				
+					<div class="sep2"></div>
+					<li>pls report bugs under <a href="https://addons.opera.com/en/extensions/details/v7-tabs/?display=en&reports#feedback-container" target="_blank">issues</a></li>	
+					</br>
+					</br>
+				</div>	
+				<div id="cred" class="panClass">
+					</br>
+					</br>			
+					<img src="img/np.png" style="margin-left: 220px">				
+					<li id="npp"></li>
+					</br>			
+					<img src="img/pn.png" style="margin-left: 190px">	<img src="img/ink.png" style="float:right; margin-right: 240px">			
+					<li id="pnink"></li>
+					</br>	
+					</br>			
+					<b data-i18n="translators"></b>
+					</br>				
+					</br>	
+					<li><b>German:</b> TheRealMcCoy</li>
+					<li><b>Polish:</b> TheRealMcCoy</li>
+					<li><b>Russian:</b> Cvvar00</li>
+					</br>
+					</br>		
+				</div>
+				<div id="donate" class="panClass">
+					</br>
+					<p align="center" style="font-size: 22px; color: #002f86">Please consider donating.</p>
+					<div class="sep2"></div>
+					<p>You can donate with PayPal by clicking on image below. It will take you to unique PayPal page for all of my extensions.</p>
+					<div id="pp_link" class="pp">
+					</div>
+					<p>Once there, enter any amount you like to donate, log into your PayPal account (if you not logged already) and confirm money transfer by clicking <b>buy now</b> button.  </p>
+					<div class="sep2"></div>	
+					<p>Or, if you prefer, you can donate using <b>Pay for Goods or Services</b> directly from your PayPal account to:</p>
+					<div id="em">v7addons@gmail.com</div>
+					<div class="sep2"></div>
+					<p align="center" style="font-size: 22px; color: #002f86">Thank you.</p>
+					</br>	
+					</br>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="options.js"></script>
+	</body>
+</html>
+
